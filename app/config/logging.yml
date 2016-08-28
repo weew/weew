@@ -1,0 +1,16 @@
+logging:
+
+  default_channel: default
+  error_channel: error
+  request_channel: request
+
+  channels:
+    default:
+      log_file_path: "{var_dir}/logs/{env}/default.log"
+      log_level: debug
+    error:
+      log_file_path: "{var_dir}/logs/{env}/error.log"
+      log_level: debug
+    request:
+      log_file_path: "{var_dir}/logs/{env}/request.log"
+      log_level: debug

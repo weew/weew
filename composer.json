@@ -1,0 +1,57 @@
+{
+    "name": "weew/weew",
+    "description": "Boilerplate for your next project.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Maxim Kott",
+            "email": "maximkott@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests"
+        }
+    },
+    "require": {
+        "weew/http-app": "^2.11",
+        "weew/http-app-request-handler": "^2.0",
+        "weew/http-app-exceptions": "^1.0",
+        "weew/app-error-handler": "^1.0",
+        "doctrine/orm": "^2.5",
+        "weew/container-doctrine-integration": "^1.0",
+        "weew/app-doctrine": "^1.6",
+        "weew/validator-doctrine-constraints": "^1.1",
+        "weew/app-error-handler-monolog": "^2.0",
+        "weew/interop": "^3.4",
+        "weew/http-client": "^1.2",
+        "weew/helpers-object": "^1.0",
+        "weew/app-twig": "^1.0",
+        "weew/console-app": "^1.0",
+        "weew/config-console-commands": "^1.0",
+        "weew/router-console-commands": "^1.0",
+        "weew/app-error-handler-black-hole": "^1.0",
+        "weew/app-swift-mailer": "^1.0",
+        "weew/http-app-error-handler-json": "^1.0",
+        "weew/config-schema": "^1.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.4",
+        "henrikbjorn/phpspec-code-coverage": "^2.0",
+        "weew/helpers-phpspec": "^1.0",
+        "behat/behat": "v3.1.0rc2"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "bin/scripts/post-install.sh"
+        ],
+        "post-update-cmd": [
+            "bin/scripts/post-install.sh"
+        ]
+    }
+}

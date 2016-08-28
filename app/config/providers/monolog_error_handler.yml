@@ -1,0 +1,2 @@
+monolog_error_handler:
+  channel_name: "{logging.error_channel}"

@@ -1,0 +1,2 @@
+request_logger:
+  channel_name: "{logging.request_channel}"

@@ -1,0 +1,3 @@
+twig:
+  debug: "{debug}"
+  namespaces: "{views.namespaces}"

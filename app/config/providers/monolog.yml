@@ -1,0 +1,3 @@
+monolog:
+  channels: "{logging.channels}"
+  default_channel: "{logging.default_channel}"

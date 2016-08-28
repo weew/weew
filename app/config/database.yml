@@ -1,0 +1,14 @@
+database:
+  connections:
+    default: "{local.database_connection}"
+
+    mysql:
+      driver: pdo_mysql
+      host: "{local.database_mysql_host}"
+      dbname: "{local.database_mysql_dbname}"
+      user: "{local.database_mysql_user}"
+      password: "{local.database_mysql_password}"
+
+    sqlite:
+      driver: pdo_sqlite
+      path: "{local.database_sqlite_path}"

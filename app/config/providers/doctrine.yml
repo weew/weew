@@ -1,0 +1,12 @@
+doctrine:
+  debug: "{debug}"
+  cache_path: "{var_dir}/cache/{env}/doctrine_cache"
+  proxy_classes_path: "{var_dir}/cache/{env}/doctrine_proxies"
+  config: "{database.connections.default}"
+  metadata_format: yaml
+  entities_mappings: "{entities.mappings}"
+
+  migrations:
+    table: migration
+    namespace: migrations
+    path: "{app_dir}/migrations"

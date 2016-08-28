@@ -1,0 +1,13 @@
+mail:
+  transports:
+    default: "{local.mail_default_transport}"
+
+    smtp:
+      type: smtp
+      host: "{local.mail_smtp_host}"
+      post: "{local.mail_smtp_port}"
+      username: "{local.mail_smtp_username}"
+      password: "{local.mail_smtp_password}"
+
+    sendmail:
+      type: sendmail

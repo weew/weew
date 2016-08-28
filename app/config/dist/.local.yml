@@ -1,0 +1,19 @@
+local:
+  # database connection
+  database_connection: "{database.connections.sqlite}"
+
+  # mysql db settings
+  database_mysql_host:
+  database_mysql_user:
+  database_mysql_password:
+  database_mysql_dbname:
+
+  # sqlite db settings
+  database_sqlite_path: "{var_dir}/storage/db_{env}.sqlite"
+
+  # mail server
+  mail_default_transport: "{mail.transports.sendmail}"
+  mail_smtp_host:
+  mail_smtp_port:
+  mail_smtp_username:
+  mail_smtp_password:
